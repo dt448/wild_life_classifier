@@ -29,3 +29,5 @@ if uploaded_file is not None:
         st.write("But I am only:")
         for index, item in enumerate(CATEGORIES):
             st.write(f'{q[0][index]*100}% sure it is a {item}')
+
+# Use docker and aws to deploy
