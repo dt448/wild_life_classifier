@@ -4,6 +4,7 @@ from skimage.io import imread
 from skimage.transform import resize
 import pickle
 from PIL import Image
+import sklearn
 
 st.title('Image Classifier')
 st.text('Upload the Image')
