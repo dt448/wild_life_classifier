@@ -6,8 +6,8 @@ import pickle
 from PIL import Image
 import sklearn
 
-st.title('Image Classifier')
-st.text('Upload the Image')
+st.title('British Wild Life Classifier')
+st.text('Upload an image to classify')
 model = pickle.load(open("clf.p", 'rb'))
 
 uploaded_file = st.file_uploader("Choose an image ...", type ="jpg")
