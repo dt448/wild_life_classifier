@@ -5,7 +5,7 @@ from skimage.transform import resize
 import pickle
 from PIL import Image
 import sklearn
-from tensorflow.keras.utils import load_img, img_to_array
+# from tensorflow.keras.utils import load_img, img_to_array
 from keras.applications.resnet_v2 import preprocess_input
 
 # st.title('British Wild Life Classifier')
