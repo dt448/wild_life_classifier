@@ -7,6 +7,7 @@ from PIL import Image
 import sklearn
 # from tensorflow.keras.utils import load_img, img_to_array
 import keras
+import tensorflow as tf
 from keras.applications.resnet_v2 import preprocess_input
 
 # st.title('British Wild Life Classifier')
@@ -62,7 +63,8 @@ if uploaded_file is not None:
 
         # my_image = img_to_array(my_image)
         # my_image = my_image.reshape((1, my_image.shape[0], my_image.shape[1], my_image.shape[2]))
-        my_image = preprocess_input(img)
+        # my_image = preprocess_input(img)
+        my_image = img
 
         #make the prediction
         prediction = model.predict(my_image)
