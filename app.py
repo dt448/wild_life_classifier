@@ -6,9 +6,9 @@ import pickle
 from PIL import Image
 import sklearn
 # from tensorflow.keras.utils import load_img, img_to_array
-import keras
-import tensorflow as tf
-# from keras.applications.resnet_v2 import preprocess_input
+# import keras
+# import tensorflow as tf
+from keras.applications.resnet_v2 import preprocess_input
 
 # st.title('British Wild Life Classifier')
 # st.text('Upload an image to classify')
